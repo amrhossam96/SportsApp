@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19461" systemVersion="21D49" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="LeagueEntity" representedClassName="LeagueEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="leagueIcon" optional="YES" attributeType="String"/>
+        <attribute name="leagueID" optional="YES" attributeType="String"/>
+        <attribute name="leagueName" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SportEntity" representedClassName="SportEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="idSport" optional="YES" attributeType="String"/>
+        <attribute name="strSport" optional="YES" attributeType="String"/>
+        <attribute name="strSportDescription" optional="YES" attributeType="String"/>
+        <attribute name="strSportIconGreen" optional="YES" attributeType="String"/>
+        <attribute name="strSportThumb" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="SportEntity" positionX="-3634.53125" positionY="-85.4296875" width="223.9140625" height="118"/>
+        <element name="LeagueEntity" positionX="-3582" positionY="-45" width="128" height="74"/>
+    </elements>
+</model>
